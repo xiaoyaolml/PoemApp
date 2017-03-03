@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 for (Poem poem:poemList) {
                     result.append(poem.getFirst()+":"+poem.getSecond()+":"+poem.getCount()+"\n");
                 }
-                Log.d("Main",result.toString());
+                Log.d(TAG, result.toString());
                 textView.setText(result);
             }
         });
